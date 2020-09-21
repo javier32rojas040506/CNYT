@@ -51,3 +51,5 @@ def grafico_probabilidades(vector):
     plot.title("Vector Probabilities")
     plot.savefig("Vector_Probabilities.png")
     plot.show()
+
+# Francisco Javier Rojas

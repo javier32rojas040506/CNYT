@@ -64,3 +64,7 @@ class sistema_clasico_quantum(unittest.TestCase):
 
         self.assertEqual(Quantum_clicks(Matriz, Xvectorestado, 10), [0.0, 0.0, 0.0, 0.07022500000000001, 0.0841, 0.001024, 0.0841, 0.0841])
 
+if __name__ == '__main__':
+    unittest.main()
+
+# Author Francisco Javier Rojas Muñoz
