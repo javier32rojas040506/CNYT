@@ -1,7 +1,6 @@
-from MatrixVectorLib import *
 import matplotlib.pyplot as plot
 import numpy as np
-
+from MatrixVectorLib import *
 
 def accion_Bool_Mat_Vector(Matriz, vector):
     row, column = len(Matriz), len(Matriz[0])

@@ -29,6 +29,14 @@ _This program can do the next operations with complex numbers_
 - Revisar si una matriz es unitaria
 - Revisar si una matriz es Hermitiana
 - Producto tensor de dos matrices/vectores
+
+# Simulacion Sistemas Clasicos y Cuanticos
+-Experimentos de sistemas clasicos con canicas rpresentados mediante coeficientes booleanos
+-Experimentos de múltiples rendijas sistema clásico-probabilístico, con más de dos rendijas.
+-Experimento de las múltiples rendijas sistema cuántico.
+-Función que crea grafica con un diagrama de barras que muestra las probabilidades de un vector y sus estados. La imagen se muestra al final y seguarga en formato png.
+
+
 ##  Starting 🚀
 
 _We need to know that the complex  number have one part real and other one imaginary, so we have_
@@ -39,7 +47,7 @@ _to use the library we are going to use tuple with this structure_
 ```
 (real, imagimary) ----> (5, 7) ----> 5 + 7i
 ```
-_for matrix an vectors structure are_ 
+_For matrix an vectors structure are_ 
 ```
 [[complex],[complex],[complex],[complex]]
 ```
@@ -47,6 +55,44 @@ _you can use vertical horizontal vectors_
 ```
 [complex, complex, complex] or [[complex][complex][complex]]
 ```
+_For simulations and experiments_ 
+
+
+_simulation of classic system with one marble and boolean matrix_ 
+```
+booleanMatriz = [[bool], [bool], [bool], ....] // it represents the system
+
+Xvectbool = [bool, ...] // it represents the state of system
+
+```
+
+_simulation of classic system with multiplies slits_ 
+```
+booleanMatriz = [[complex, complex, ...], ....] // it represents the system
+
+Xvectbool = [complex, complex, ...] // it represents the state of system
+
+```
+
+_simulation of quantum system with multiplies slits_ 
+```
+booleanMatriz = [[complex, complex, ...], ....] // it represents the system
+
+Xvectbool = [complex, complex, ...] // it represents the state of system
+
+in this case we have a vector of probabilities 
+
+Probabilities = [float, ...]
+
+```
+_graph of probabilities_ 
+```
+we have a vector of probabilities 
+
+Probabilities = [float, ...]
+
+```
+
 ### Pre-requirements 📋
 
 *Python 3 or followed versions
