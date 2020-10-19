@@ -15,8 +15,8 @@ abertura o rendija entonces tendremos la proyección de un solo punto la luz pas
 un sistema clásico deterministico, es decir que podemos observar y predecir un patrón sobre una pared cuando usamos el
 láser, tal como se presenta en la siguiente imagen teórica resultado
 
-![1](https://raw.githubusercontent.com/andresro30/ExperimentoDobleRendija-CNYT/master/imagenes/1.png)
-![2](https://raw.githubusercontent.com/andresro30/ExperimentoDobleRendija-CNYT/master/imagenes/2.png)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado1.PNG)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/punto.jpg)
 
 Si cambiamos un poco del sistema utilizando dos rendijas en teoría si nos ceñimos a los resultados 
 anteriores pudimos predecir que se presentará el mismo patrón solo que en dos regiones por que la mitad de 
@@ -35,7 +35,7 @@ onda de Schrödinger que causa que el estado del sistema sufra superposición de
 de la separación entre distancias de separación y proyección se debe a un entrelazamiento de estados que interpreta dicha
 distancia proectandose en los resultados. A continuación una imagen del sistema cuántico
 
-![3](https://raw.githubusercontent.com/andresro30/ExperimentoDobleRendija-CNYT/master/imagenes/2.png)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado3.PNG)
 
 
 ## Simulación 
@@ -46,10 +46,15 @@ repositorio.
 También tendremos en cuenta la forma en el que el experimento se representara, entonces el sistema tendra una matriz 
 asociada y a su vez un vector de estado inicial
 
-**Grafo**
-![4](https://raw.githubusercontent.com/andresro30/ExperimentoDobleRendija-CNYT/master/imagenes/2.png)
-**Matriz**
-![5](https://raw.githubusercontent.com/andresro30/ExperimentoDobleRendija-CNYT/master/imagenes/2.png)
+*Grafo*
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/grafo.PNG)
+
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/numcomplejos.PNG)
+
+
+*Matriz*
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/matriz.PNG)
+
 
 ## Elaboración 
 **Materiales:**
@@ -70,8 +75,11 @@ asociada y a su vez un vector de estado inicial
 
 **proceso y materiales**
 
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/materiales1.jpeg)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/materales2.jpeg)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/materiales3.jpeg)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/materiales4.jpeg)
 
-![04b90f0b-47ce-43dc-a1cc-3cd47baf29eb](https://user-images.githubusercontent.com/59893804/76345530-865ab580-62d1-11ea-857b-984eac8967b9.jpg)
 
 **Representación libreria**
 ```
@@ -90,7 +98,11 @@ c1 = (-1 / (6 * 0.5), 1 / (6 ** 0.5))
         Xvectorestado = [[(1, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)]]
 ```
 ## Resultado 
-![891d682b-e4d5-413b-a5d8-8eea8b9ef876](https://user-images.githubusercontent.com/59893804/76345533-88247900-62d1-11ea-96c5-57d107a3a258.jpg)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado2.PNG)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado4.jpeg)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado5.jpeg)
+ver video resultado https://www.youtube.com/watch?v=2LDqRkjJ7XY
+
 
 
 

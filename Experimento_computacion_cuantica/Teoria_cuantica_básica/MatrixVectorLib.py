@@ -188,7 +188,7 @@ def  unitaria(mat):
             if i == j:
                 Munitaria[i][j] = (1, 0)
     mat2 = producMatrizes(mat, mat1)
-    mat2= escMatrix((1/mat2[0][0][0]), mat2)
+    mat2= escMatrix((1/mat2[0][0][0], 0), mat2)
     
     if mat2 == Munitaria:
         return True
