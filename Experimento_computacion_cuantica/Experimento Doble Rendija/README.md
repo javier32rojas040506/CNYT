@@ -131,7 +131,7 @@ representa la probabilidad vamos a usar la grafico de probabilidades
 print(grafico_probabilidades(Quantum_clicks(Matriz, Xvectorestado, 2)))
 ```
 resultado
-![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado2.PNG)
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/Figure_1.png)
 ## Resultado 
 ![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado2.PNG)
 ![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado4.jpeg)
