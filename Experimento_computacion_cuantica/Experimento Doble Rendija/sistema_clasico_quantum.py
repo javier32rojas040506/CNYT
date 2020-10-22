@@ -49,7 +49,6 @@ def grafico_probabilidades(vector):
     y = np.array([round(vector[x]*100, 3) for x in range(ejes)])
     plot.bar(x, y, color="blue", align="center")
     plot.title("Vector Probabilities")
-    plot.savefig("Vector_Probabilities.png")
     plot.show()
-
+    plot.savefig("Vector_Probabilities.png")
 # Francisco Javier Rojas

@@ -97,13 +97,54 @@ c1 = (-1 / (6 * 0.5), 1 / (6 ** 0.5))
                  [(0, 0), (0, 0), c3, (0, 0), (0, 0), (0, 0), (0, 0), (1, 0)]]
         Xvectorestado = [[(1, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)]]
 ```
+### Pre-requisitos
+
+- Tener instalado una version mayor o igual a python 3
+- Es opcional tener instalado git 
+
+ademas se van hacer uso de estas librerias una es nativa de python "numpy" y la otra es matplotlib.pyplot as plot
+para descargar esta ultima compiladores como pychar ofrecen la opncon de descargarla directamente, en cualquier
+otro caso seguir el siguiente link https://matplotlib.org/downloads.html
+
+### Uso
+Defina la matriz de su sistema cauntico o deterministico a su vez defina su vector de estado inicial ejemplo:
+```
+c1 = (-1 / (6 * 0.5), 1 / (6 ** 0.5))
+        c2 = (-1 / (6 ** 0.5), -1 / (6 ** 0.5))
+        c3 = (1 / (6 ** 0.5), -1 / (6 ** 0.5))
+
+        Matriz = [[(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)],
+                 [(1/2, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)],
+                 [(1/2, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)],
+                 [(0, 0), c1, (0, 0), (1, 0), (0, 0), (0, 0), (0, 0), (0, 0)],
+                 [(0, 0), c2, (0, 0), (0, 0), (1, 0), (0, 0), (0, 0), (0, 0)],
+                 [(0, 0), c3, c1, (0, 0), (0, 0), (1, 0), (0, 0), (0, 0)],
+                 [(0, 0), (0, 0), c2, (0, 0), (0, 0), (0, 0), (1, 0), (0, 0)],
+                 [(0, 0), (0, 0), c3, (0, 0), (0, 0), (0, 0), (0, 0), (1, 0)]]
+        Xvectorestado = [[(1, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)], [(0, 0)]]
+```
+Usar alguna de las funciones de la libreria para saber el estado del sistema despues de t clicks, en el caso del ejemplo
+anterior tenemos un sistema cuantico entonces vamos a usar, dado que queremos visualizar el diagrama de barras que
+representa la probabilidad vamos a usar la grafico de probabilidades
+
+```
+print(grafico_probabilidades(Quantum_clicks(Matriz, Xvectorestado, 2)))
+```
+resultado
+![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado2.PNG)
 ## Resultado 
 ![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado2.PNG)
 ![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado4.jpeg)
 ![](https://github.com/javier32rojas040506/CNYT/blob/master/Experimento_computacion_cuantica/Experimento%20Doble%20Rendija/imagenes/resultado5.jpeg)
 ver video resultado https://www.youtube.com/watch?v=2LDqRkjJ7XY
-
-
+ 
+ evidencaimos lo explicado en el patron obtenido pues como se explico anteriormente el patron interactua con la distancia 
+  del lazer esto es claro en las fotos y el video el resultado ademas se puede analizar que si nuestro universo no fuera cauntico tendriamos
+ unicamente un punto si no que es el resultado de la interaccion de la onda (luz lazer) que se superpone en algunos casos y en otros 
+ se cancelan, tambien cabe recalcar que la el patron no se refleja la mayoria del tiempo y su calidad no es tan alta por
+ variables que afectan el experimento como el medio, poder del lazer, etc. no obstante se logra apreciar el resultado,
+ dandonos a entender que el universo es quantico y que los fenomenos de superposicion, inteferencia y entrelazamiento estan 
+ presentes en la naturaleza y por esto tenemos como resultado el patron obtenido 
 
 
 
